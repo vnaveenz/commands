@@ -1,2 +1,13 @@
+## Major Git commands
+# 1. git config
+# 2. git help <verb>
+
 # Git Clone
 git clone git@github.com:vnaveenz/commands.git
+
+# List of all system settings can be found in "git config --list --show-origin"
+
+# add a global setting
+git config --global user.email "naveenblaze44@gmail.com"
+
+git branch --remotes
