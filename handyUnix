@@ -1,3 +1,4 @@
 # Copy Input to Clipboard
+# https://github.com/astrand/xclip
 
 echo "Hi" | xclip -sel clip
