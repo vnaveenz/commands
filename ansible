@@ -1,0 +1,9 @@
+#inventory location - /etc/ansible/hosts
+#version
+ansible --version
+
+#ping
+ansible -m ping laall
+
+#running ad-hoc command
+ansible -a "df -h" laall

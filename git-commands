@@ -11,3 +11,7 @@ git clone git@github.com:vnaveenz/commands.git
 git config --global user.email "naveenblaze44@gmail.com"
 
 git branch --remotes
+
+# remove / un-stage a file from git
+
+git rm filename

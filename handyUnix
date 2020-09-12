@@ -2,3 +2,21 @@
 # https://github.com/astrand/xclip
 
 echo "Hi" | xclip -sel clip
+
+# check disk usage in the current directory
+du -shc `pwd`/*
+
+#copying recently added directory to dirs to Clipboard
+dirs | awk '{print $2}' | xclip sel -clip
+
+#remove previous references of host ECDSA key
+ssh-keygen -f "/home/naveen/.ssh/known_hosts" -R "vnaveenz2c.mylabserver.com"
+
+#add sshkey to host 
+ssh-copy-id -i /home/naveen/.ssh/la_key 3c
+
+#Kernel details
+uname -a
+
+#hostname details
+hostname

@@ -1,0 +1,2 @@
+#update repository cache
+sudo dnf makecache
