@@ -20,3 +20,6 @@ uname -a
 
 #hostname details
 hostname
+
+#quickly check some status in other servers using for loop and ssh
+for hosts in 1c 2c 3c ; do echo "welcome $hosts"; ssh cloud_user@$hosts df -h; done
