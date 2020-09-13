@@ -7,3 +7,6 @@ ansible -m ping laall
 
 #running ad-hoc command
 ansible -a "df -h" laall
+
+#ask/prompt for sudo (become password)
+ansible-playbook install-docker.yaml -K
