@@ -15,3 +15,9 @@ git branch --remotes
 # remove / un-stage a file from git
 
 git rm filename
+
+# git diff gives difference between what is in working tree and committed, git diff --staged gives what is in staged which is yet to be commited
+git diff , git diff --staged
+
+# skip the add stage and directly commit
+git commit -a -m "Initial Commit"
