@@ -21,3 +21,7 @@ git diff , git diff --staged
 
 # skip the add stage and directly commit
 git commit -a -m "Initial Commit"
+
+# Safely remove file from git - first hard remove the file and remove the file from git tracking (opposite of add)
+rm readme.md
+git rm readme.md
